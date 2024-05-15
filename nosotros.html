@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="nav">
+        <div class="container">
+            <a class="nav__button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </a>
+            <div class="offcanvas offcanvas-start menu__s" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <nav class="nav__links">
+                        <ul>
+                            <li>
+                                <a href="index.html"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a>
+                                <a href="index.html">INICIO</a>
+                            </li>
+                            <li>
+                                <a href="nosotros.html"><i class="fa-solid fa-book" style="color: #ffffff;"></i></a>
+                                <a href="nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li>
+                                <a href="contacto.html"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a>
+                                <a href="contacto.html">CONTACTANOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="header-img3">
+        <div class="container header__content">
+            <h1 class="animate__animated animate__fadeInLeft animate__slower 3s">SOBRE <br>NOSOTROS</h1>
+        </div>
+    </header>
+    <section id="trabajos" class="py-5">
+        <div class="gallery_title">
+            <h2>PROYECTOS PASADOS</h2>
+        </div>
+        <div class="proyectos">
+            <div class="proyecto">
+                <img src="src/img/a1.png" alt="VENTA DE LIBROS" class="img-fluid">
+                <h3 class="mt-3">VENTA DE LIBROS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et consectetur reiciendis maxime quod! Obcaecati numquam earum possimus! Labore necessitatibus, dolore deleniti totam laborum enim quia recusandae ab delectus. Laborum quisquam nulla nobis optio. Eos expedita eius soluta dolor veniam, facere error libero non aut magni porro vitae at in et ipsa itaque praesentium necessitatibus nemo aperiam quasi. Nemo quasi ab autem excepturi nesciunt molestiae ullam dolores incidunt, fugiat recusandae dolorum!</p>
+            </div>
+            <div class="proyecto mt-5">
+                <div class="container">
+                    <video id="videoPlayer" controls width="100%" poster="poster.jpg" class="img-fluid">
+                        <source src="src/video/video.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento <code>video</code>.
+                    </video>
+                    <h3 class="mt-3">VIDEOS PROMOCIONALES</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum provident voluptatibus, quaerat sed ipsum itaque non veritatis voluptates dicta fuga quam odit vitae, aspernatur natus vel culpa? Quia nemo veniam soluta rem sint quasi officiis excepturi quisquam nesciunt adipisci, placeat earum praesentium a accusantium sapiente quidem dolores distinctio vitae nisi! Architecto iste incidunt a obcaecati ipsum repellat porro reiciendis aut repudiandae dignissimos qui deleniti, explicabo magni voluptate assumenda sint.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="acerca" class="py-5">
+        <div class="container">
+            <h2>UN POCO DE NOSOTROS</h2>
+            <p>Nos dedicamos a publicar y compartir diferente tipo de arte al rededor de las plataformas, así tambien como para apoyar a estos artístas dando apoyo monetario y siendo primer opción en publisher para diferentes prodcutos.</p>
+            <p>¡Gracias por visitar nuestro sitio! Esperamos que disfrutes explorando el mundo de las redes sociales en busca de lo mejor.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer__content">
+          <div class="footer__socials">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="footer__nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#gallery">Gallery</a>
+          </div>
+          <div class="footer__contact">
+            <p>Contact us: <a href="mailto:info@artgallery.com">info@artgallery.com</a></p>
+          </div>
+        </div>
+        <div class="footer__credits">
+          <p>&copy; 2024 Art Gallery. All rights reserved.</p>
+        </div>
+      </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://kit.fontawesome.com/f08ceb33cd.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
